@@ -1,0 +1,6 @@
+namespace: test
+
+ingress:
+  clusterIssuer: letsencrypt
+  ingressClassName: nginx
+  host: test.supportgenie.in 
